@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data cache (raw json files can be huge)
+data/raw/*
+!data/raw/.gitkeep
+
+# Operating System
+.DS_Store
+Thumbs.db
